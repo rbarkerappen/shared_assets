@@ -1,0 +1,28 @@
+{
+  "name": "shared_assets",
+  "version": "1.0.0",
+  "description": "share private assets",
+  "main": "index.js",
+  "author": "rbarker@appen.com",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "appen_global_assets": "https://github.com/Appen/appen_global_assets#0.1.0",
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "extract-loader": "^1.0.1",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.5.1",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.5"
+  },
+  "scripts": {
+    "build": "webpack"
+  }
+}
